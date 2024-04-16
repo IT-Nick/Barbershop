@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Период" id="7">
+			<DataPath>Объект.Период</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="ГрафикРаботы" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ГрафикРаботы</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ГрафикРаботыКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ГрафикРаботыКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ГрафикРаботыРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ГрафикРаботыСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>ГрафикРаботы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ГрафикРаботыСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ГрафикРаботыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ГрафикРаботыСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>ГрафикРаботы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ГрафикРаботыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ГрафикРаботыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ГрафикРаботыУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>ГрафикРаботы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ГрафикРаботыУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ГрафикРаботыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ГрафикРаботыНомерСтроки" id="23">
+					<DataPath>Объект.ГрафикРаботы.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ГрафикРаботыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ГрафикРаботыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ГрафикРаботыСотрудник" id="26">
+					<DataPath>Объект.ГрафикРаботы.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ГрафикРаботыСотрудникКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ГрафикРаботыСотрудникРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ГрафикРаботыДолжность" id="29">
+					<DataPath>Объект.ГрафикРаботы.Должность</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ГрафикРаботыДолжностьКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ГрафикРаботыДолжностьРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ГрафикРаботыГрафикРаботы" id="32">
+					<DataPath>Объект.ГрафикРаботы.ГрафикРаботы</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ГрафикРаботыГрафикРаботыКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ГрафикРаботыГрафикРаботыРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ГрафикРаботыДатаНачала" id="35">
+					<DataPath>Объект.ГрафикРаботы.ДатаНачала</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ГрафикРаботыДатаНачалаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ГрафикРаботыДатаНачалаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ГрафикРаботыКоличествоРабочихДней" id="38">
+					<DataPath>Объект.ГрафикРаботы.КоличествоРабочихДней</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ГрафикРаботыКоличествоРабочихДнейКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ГрафикРаботыКоличествоРабочихДнейРасширеннаяПодсказка" id="40"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Button name="Рассчитать" id="41">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Рассчитать</CommandName>
+			<ExtendedTooltip name="РассчитатьРасширеннаяПодсказка" id="42"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПланированиеРаботы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Рассчитать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Рассчитать</Action>
+		</Command>
+	</Commands>
+</Form>

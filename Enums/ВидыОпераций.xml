@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="de3967f5-67ba-4514-b470-081afa46304c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОпераций" category="Ref">
+				<xr:TypeId>6485ca4b-f74c-492d-9792-92bf8887284b</xr:TypeId>
+				<xr:ValueId>3aaa90d0-291f-4c8c-8142-cc5de93c1940</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОпераций" category="Manager">
+				<xr:TypeId>75e2283d-dd42-44f3-a4cd-004ed4a3e1f0</xr:TypeId>
+				<xr:ValueId>3b8466e8-b11f-4b50-8898-b8f24eaeb3cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОпераций" category="List">
+				<xr:TypeId>aafe8a98-90aa-42a1-9d52-ff03df03a7fb</xr:TypeId>
+				<xr:ValueId>b321c74f-23d1-42fc-981f-dbc9e537c6e3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОпераций</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды операций</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="21b3e655-8d5f-45ae-b987-2e56399257f0">
+				<Properties>
+					<Name>ОплатаОтКлиента</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оплата от клиента</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Поступление денежных средств</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3db6b65f-619d-454c-813d-9c53c6026503">
+				<Properties>
+					<Name>ВозвратОплатыКлиенту</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Возврат оплаты клиенту</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Списание денежных средств</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="03494568-5826-4e1f-8843-ecee94c892c9">
+				<Properties>
+					<Name>ПрочееПоступление</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочее поступление</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Поступление денежных средств</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="77e074a2-ed65-418a-8de1-507aff16fd95">
+				<Properties>
+					<Name>ПрочееСписание</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочее списание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Списание денежных средств</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

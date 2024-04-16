@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="8117ca4b-6b45-425b-9395-b386345d1195">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтавкиНДС" category="Ref">
+				<xr:TypeId>c2946d3d-09b6-4039-b5c5-f4dd22dc100e</xr:TypeId>
+				<xr:ValueId>922138bb-4747-43b1-8570-e745e09a2851</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтавкиНДС" category="Manager">
+				<xr:TypeId>e722d70a-385f-416d-989b-2454cb789fda</xr:TypeId>
+				<xr:ValueId>b478a133-3078-4d25-9452-9bd0bb529836</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтавкиНДС" category="List">
+				<xr:TypeId>5df52a59-454a-4a8b-9e00-09f1f49fe6ad</xr:TypeId>
+				<xr:ValueId>eb3fb8f8-3759-4a7e-a1c4-3b20f9d136d3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтавкиНДС</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ставки НДС</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm>Enum.СтавкиНДС.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Enum.СтавкиНДС.Form.ФормаВыбора</DefaultChoiceForm>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b09e6f60-1e79-4207-afa8-0e1633586aad">
+				<Properties>
+					<Name>НДС18</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НДС 18</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>НДС по ставке  18%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="aa892396-9847-4c8e-9332-520df3f427fd">
+				<Properties>
+					<Name>НДС0</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НДС 0</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>НДС по ставке 0%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2bcf1ce7-9aee-44c6-b092-320194a19eea">
+				<Properties>
+					<Name>НДС20</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НДС 20</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>НДС по ставке 20%</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bb23f62e-f170-4dba-8fe7-693ba77f3361">
+				<Properties>
+					<Name>БезНДС</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Без НДС</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Без НДС</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dc5f0d70-d37a-4116-a38d-fa09d3f275e1">
+				<Properties>
+					<Name>НДС10</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НДС 10</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>НДС по ставке 10%</Comment>
+				</Properties>
+			</EnumValue>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаВыбора</Form>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
